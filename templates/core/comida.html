@@ -1,0 +1,132 @@
+{% extends 'core/base.html' %} {% load static %} {% block extrastatic %}
+<link rel="stylesheet" href="{%static 'css/comida.css'%}" />
+{% endblock %} {% block content %}
+
+<div class="Container-Portada">
+  <img
+    class="PortadaComida"
+    src="{%static 'img/Productos/PortadaComida.jpg'%}"
+    alt="PortadaComida"
+  />
+</div>
+
+<div class="Listado">
+  <div class="card-group">
+    <div class="card">
+      <img
+        src="{%static 'img/Productos/Comida/comida6-removebg-preview.png'%}"
+        class="comida1"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">INSTINCT ORIGINAL PERRO POLLO 1,8 KGS</h5>
+        <p class="card-text">
+          Dog Chow® Salud Visible Adultos Medianos y Grandes con Pollo y Pavo es
+          un alimento indicado para tu perro adulto mediano o grande que ayuda a
+          mejorar su calidad de vida desde adentro hacia afuera de forma
+          visible.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="{%static 'img/Productos/Comida/comida1-removebg-preview.png'%}"
+        class="comida2"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">
+          dog chow sin colorantes-ADULTOS MEDIANOS Y GRANDES- POLLO Y PAVO
+        </h5>
+        <p class="card-text">
+          Instinct Original Perro Pollo, en su formato de 1,8 kilogramos, es un
+          alimento libre de granos para perros adultos de todas las razas
+          formulado con proteína de alta calidad.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="{%static 'img/Productos/Comida/comida2-removebg-preview.png'%}"
+        class="comida3"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">ADULTO CARNE EN SALSA "PEDIGREE"</h5>
+        <p class="card-text">
+          Pedigree® Sobrecito Adulto sabor carne en salsa con ingredientes
+          naturales es alimento húmedo 100% completo y balanceado cocido al
+          vapor, que contiene suaves trocitos en salsa y ha sido formulado para
+          perros adultos, aportando vitalidad y energía en cada porción..
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="Listado2">
+  <div class="card-group">
+    <div class="card">
+      <img
+        src="{%static 'img/Productos/Comida/comida3-removebg-preview.png'%}"
+        class="comida4"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Bravo baby</h5>
+        <p class="card-text">
+          Alimento desarrollado para cachorros de todas las razas. Sus elevados
+          niveles de proteína y energía garantizan un desarrollo saludable. Su
+          composición de las fibras a base de Pulpa de Remolacha, es ideal para
+          estimular la actividad intestinal en esta fase. Con Bravo Baby.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="{%static 'img/Productos/Comida/comida4-removebg-preview.png'%}"
+        class="comida5"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">ADULTO RAZA GRANDE 'eukanuba'</h5>
+        <p class="card-text">
+          Eukanuba ADULTO RAZA GRANDE es un alimento para perros adultos de raza
+          grande y gigante. Formulado para ayudar al mantenimiento de
+          articulaciones saludables, mantener un peso óptimo gracias a sus
+          niveles reducidos de grasa y para promover la salud del cartílago.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="{%static 'img/Productos/Comida/comida5-removebg-preview.png'%}"
+        class="comida6"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">IAMS RAZA PEQUEÑA/MEDIANA</h5>
+        <p class="card-text">
+          es alimento seco 100% completo y balanceado, desarrollado
+          especialmente para perros cachorros de razas pequeñas y medianas, de
+          entre 2 a 12 meses de edad
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"
+></script>
+{% endblock %}

@@ -1,0 +1,37 @@
+.PortadaJuguetes{
+
+    width: 60%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.Container-Portada{
+    display: inline-block;
+}
+
+.juguete{
+    width: 100px;
+}
+
+.card-img-top{
+    width: fit-content;
+}
+.card-deck{
+    width: 50%;
+
+}
+
+@media screen and (max-width:900px) {
+    .card-deck {
+        display: inline;
+    }
+    .card-text {
+        display: none;
+    }
+    .Container-Portada{
+        display: none;
+    }
+    
+}

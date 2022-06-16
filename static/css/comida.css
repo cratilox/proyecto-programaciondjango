@@ -1,0 +1,47 @@
+.PortadaComida{
+    width: 60%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.Container-Portada{
+    display: inline-block;
+}
+
+.juguete{
+    width: 50px;
+}
+
+.card-img-top{
+    width: fit-content;
+}
+.card-deck{
+    width: 50%;
+
+}
+
+@media screen and (max-width:900px) {
+    .card-deck {
+        display: inline;
+    }
+    .card-text {
+        display: none;
+    }
+    .PortadaJuguetes{
+        display: none;
+    }
+    
+}
+
+.comida1 {
+    width: 50%;
+    display: inline-flex;
+    margin: auto;
+}
+
+.comida2 {
+    width: 125%;
+    margin: auto;
+}

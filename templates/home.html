@@ -1,0 +1,53 @@
+{% extends 'core/base.html' %} {% load static %} {% block extrastatic %}
+<link rel="stylesheet" href="{%static 'css/estilo.css'%}" />
+{% endblock %} {% block content %}
+
+<section>
+  <div class="principal">
+    <div id="contenedorMain">
+      <img
+        class="img-fluid"
+        src="{%static 'img/Productos/PortadaIndex.jpg' %}"
+        alt="Portada"
+      />
+    </div>
+  </div>
+</section>
+
+<div class="contenedor-inferior">
+  <aside class="lateral_1">
+    <h1>Gato</h1>
+    <h5>¿Que son?</h5>
+    <p>
+      El gato doméstico (Felis silvestris catus), llamado más comúnmente gato, y
+      de forma coloquial minino, michino, michi, micho, mizo, miz, morroño9 o
+      morrongo, y algunos nombres más, es un mamífero carnívoro de la familia
+      Felidae. Es una subespecie domesticada por la convivencia con el ser
+      humano.
+    </p>
+    <img
+      class="gato2"
+      src="{%static 'img/Productos/GatoIndex2.jpg'%}"
+      alt="Gato2"
+    />
+  </aside>
+  <aside class="lateral_2">
+    <img
+      class="gato1"
+      src="{%static 'img/Productos/GatoIndex.png'%}"
+      alt="gato1"
+    />
+    <h1>¿Como se comunican?</h1>
+    <p>
+      El gato se comunica a través de vocalizaciones. Las más populares son su
+      característico maullido y el ronroneo, pero puede aullar, gemir, gruñir y
+      bufar. Los gatos desarrollaron el maullido con la única finalidad de poder
+      comunicarse con el ser humano. Además, adopta poses o expresiones que
+      informan, a sus congéneres, sus enemigos o sus cuidadores, de su ánimo o
+      sus intenciones.
+    </p>
+  </aside>
+  <br />
+</div>
+
+{% endblock %}
