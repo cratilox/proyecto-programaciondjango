@@ -16,7 +16,7 @@ Este es el git Actual (evaluacion 3): https://github.com/cratilox/proyecto-progr
 
 Link de drive de entrega: https://drive.google.com/drive/folders/1yh4QNzwpbaxYPEQLPD6osWKRXH8yF0FR?usp=sharing
 
-=========================================================
+===================================================================================================================
 Credenciales de los Usuarios que utilice en el video
 
 Usuario: ignacio - SUPERUSUARIO
